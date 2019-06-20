@@ -7,15 +7,32 @@
     <link rel="stylesheet" href="style.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/client.js"></script>
+    <script src="js/client2.js"></script>
     <title>jQuery review</title>
 </head>
 <body>
     <header><h1>Playfair</h1></header>
     <main>
-        <h2>Students</h2>
-        <ul id="students">
-            <!-- jQuery will fill this in -->
-        </ul>
+        <section>
+            <h2>Students</h2>
+            <ul id="students">
+                <!-- jQuery will fill this in -->
+            </ul>
+        </section>
+        <section>
+            <h2>Task list</h2>
+            <h3>Add Task</h3>
+            <form>
+                <label>Task Name</label>
+                <input id="task-name" type="text" />
+                <button id="add-task" type="submit">Add Task</button>
+            </form>
+            <h3>All Tasks</h3>
+            <button id = "clear-tasks">Remove All</button>
+            <ul id="task-list">
+                <!-- jQuery will fill this in as we add task -->
+            </ul>
+        </section>
     </main>
     
 </body>

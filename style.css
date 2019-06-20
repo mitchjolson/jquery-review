@@ -40,3 +40,7 @@ h1{
 .text-light{
     color: coral;
 }
+
+.important{
+    background-color: lemonchiffon;
+}
