@@ -23,9 +23,10 @@ function renderStudentList(studentList){
 // This function will be called when we click on a student
 // It will show an alert stating that the student is awesome
 function showAwesomeAlert(event){
-    console.log('Event:',event);
-    console.log(this);
-    alert('Check the console...')
+ //   console.log('Event:',event);
+  //  console.log(this);
+  let studentName = $(this).text();  
+  alert(`${studentName} is awesome`)
 }
 
 // When DOM is ready, calls the renderStudentList function
